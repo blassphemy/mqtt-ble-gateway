@@ -22,9 +22,9 @@ python main.py
 - home/MQTTtoBLE/command/[MAC]/unsubscribe/[UUID]
 
 ## MQTT responses
-- /home/MQTTtoBLE online
-- /home/MQTTtoBLE offline
-- home/MQTTtoBLE/device/scan
+- /home/MQTTtoBLE **online**
+- /home/MQTTtoBLE **offline**
+- home/MQTTtoBLE/device/scan **results**
 - home/MQTTtoBLE/device/MAC/read/handle **value**
 - home/MQTTtoBLE/device/MAC/notify/handle **value**
 

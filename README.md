@@ -25,13 +25,15 @@ python main.py
 - /home/MQTTtoBLE **online**
 - /home/MQTTtoBLE **offline**
 - home/MQTTtoBLE/device/scan **results**
-- home/MQTTtoBLE/device/MAC/read/handle **value**
-- home/MQTTtoBLE/device/MAC/notify/handle **value**
+- home/MQTTtoBLE/device/**MAC**/read/**handle** **value**
+- home/MQTTtoBLE/device/**MAC**/notify/**handle** **value**
 
 ## Examples
 ```
 # read the current color of a BLE lamp
 mosquitto_pub -h localhost -t home/MQTTtoBLE/command/F4:B8:5E:XX:XX:XX/read/0000ffb2-0000-1000-8000-00805f9b34fb -m ""
+# --> d0ffffff (current color = white)
+
 # set the color of a BLE lamp to red
 mosquitto_pub -h localhost -t home/MQTTtoBLE/command/F4:B8:5E:XX:XX:XX/write/0000ffb2-0000-1000-8000-00805f9b34fb -m "d0ff0000"
 

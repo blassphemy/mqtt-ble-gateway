@@ -15,11 +15,11 @@ python main.py
 
 ## MQTT commands
 - home/MQTTtoBLE/command/scan
-- home/MQTTtoBLE/command/[MAC]/connect
-- home/MQTTtoBLE/command/[MAC]/read/[UUID]
-- home/MQTTtoBLE/command/[MAC]/write/[UUID] [value]
-- home/MQTTtoBLE/command/[MAC]/subscribe/[UUID]
-- home/MQTTtoBLE/command/[MAC]/unsubscribe/[UUID]
+- home/MQTTtoBLE/command/**MAC**/connect
+- home/MQTTtoBLE/command/**MAC**/read/**UUID**
+- home/MQTTtoBLE/command/**MAC**/write/**UUID** **value**
+- home/MQTTtoBLE/command/**MAC**/subscribe/**UUID**
+- home/MQTTtoBLE/command/**MAC**/unsubscribe/**UUID**
 
 ## MQTT responses
 - /home/MQTTtoBLE **online**

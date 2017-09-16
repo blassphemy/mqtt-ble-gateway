@@ -4,7 +4,7 @@ The mqtt-ble-gateway is designed to provide a generic bidirectional gateway betw
 
 ## Installation
 ```
-sudo pip install pygat paho-mqtt pexpect
+sudo pip install pygatt paho-mqtt pexpect
 setcap 'cap_net_raw,cap_net_admin+eip' `which hcitool`
 ```
 
